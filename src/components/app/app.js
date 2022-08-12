@@ -31,7 +31,6 @@ class App extends Component {
         })
     }
 
-    // Да, пока могут добавляться пустые пользователи. Мы это еще исправим
     addItem = (name, salary) => {
         const newItem = {
             name, 
@@ -84,6 +83,7 @@ class App extends Component {
         }
     }
 
+    //Filter
     onFilterSelect = (filter) => {
         this.setState({filter});
     }
